@@ -1,0 +1,31 @@
+{
+    "template_name": "HelloEgret",
+    "template": {
+        "source": [
+            "proj.android"
+        ]
+    },
+    "rename_tree": {
+        "content": [
+            "proj.android/app/build.gradle",
+            "proj.android/app/app.iml",
+            "proj.android/app/src/main/AndroidManifest.xml",
+            "proj.android/app/src/main/res/values/strings.xml",
+            "proj.android/app/src/main/java/org/egret/java/HelloEgret/HelloEgret.java",
+	        "proj.android/app/src/main/java/org/egret/java/HelloEgret/GameLoadingView.java",
+            "proj.android/app/src/androidTest/java/org/egret/java/HelloEgret/ApplicationTest.java",
+            "proj.android/app/src/test/java/org/egret/java/HelloEgret/ExampleUnitTest.java"
+        ],
+        "file_name": [
+            "proj.android/app/src/main/java/org/egret/java/HelloEgret/HelloEgret.java",
+            "proj.android/app/src/androidTest/java/org/egret/java/HelloEgret",
+            "proj.android/app/src/test/java/org/egret/java/HelloEgret",
+            "proj.android/app/src/main/java/org/egret/java/HelloEgret"
+        ]
+    },
+    "game": {
+        "target": [
+            "proj.android/app/assets/egret-game"
+        ]
+    }
+}
