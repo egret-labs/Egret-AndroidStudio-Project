@@ -24,6 +24,9 @@ public class HelloEgret extends Activity {
     //TODO: egret publish之后，修改以下常量为生成的game_code名
     private static final String EGRET_PUBLISH_ZIP = "game_code_0123456789.zip";
     protected static final String TAG = "HelloEgret";
+    
+   	//若bUsingPlugin为true，开启插件
+    private boolean bUsingPlugin = false; 
 
     private EgretGameEngine gameEngine;
     private String egretRoot;
@@ -77,6 +80,11 @@ public class HelloEgret extends Activity {
         options.put(EgretRuntime.OPTION_GAME_ID, gameId);
         options.put(EgretRuntime.OPTION_GAME_LOADER_URL, loaderUrl);
         options.put(EgretRuntime.OPTION_GAME_UPDATE_URL, updateUrl);
+        if(bUsingPlugin){
+        	String pluginConf = "{'plugins':[{'name':'androidca','class':'org.egret.egretframeworknative.CameraAudio','types':'jar,so'}]}";
+					options.put(EgretRuntime.OPTION_GAME_GLVIEW_TRANSPARENT, "true");
+	        options.put(EgretRuntime.OPTION_EGRET_PLUGIN_CONF, pluginConf);
+        }
         return options;
     }
 
