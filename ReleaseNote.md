@@ -1,17 +1,31 @@
 ##Egret Android Support Based On Android Studio Release Notes 
 ---
+
+### Egret Android Support 3.1.8 Release Notes
+--
+Update：September 02, 2016
+
+miniSDKVersion:14
+
+- **[Fix]** Fixed prompt text in InputBox dont disappear while editting.
+- **[Fix]** Fixed crash on playing audios.
+- **[Update]** Improved stability.
+- **[Fix]** Fixed bugs.
+
 ### Egret Android Support 3.1.7 Release Notes
 --
 Update：August 25, 2016
 
 miniSDKVersion:14
 
-- **[Fixed]** Fixed crash on setting illegal value of color.
-- **[Fixed]** Fixed crash on playing audios.
-- **[Fixed]** Fixed unable to load online audios.
-- **[Fixed]** Fixed audios cannot been released completely.
+- **[Fix]** Fixed crash on setting illegal value of color.
+- **[Fix]** Fixed crash on playing audios.
+- **[Fix]** Fixed unable to load online audios.
+- **[Fix]** Fixed audios cannot been released completely.
 - **[Add]** Support italic text.
 - **[Add]** Add ColorTransform Filter.
+- **[Update]** Improved stability.
+- **[Fix]** Fixed bugs.
 
 ### Egret Android Support 3.1.6 Release Notes
 --
