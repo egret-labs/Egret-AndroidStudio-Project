@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "org.egret.java.HelloEgret"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion EGT_ANDROID_SDK
         versionCode 1
         versionName "1.0"
