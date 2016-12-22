@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HelloEgret</string>
     <string name="title_activity_splash">SplashActivity</string>
+    <string name="game_option">GameOption</string>
 </resources>
