@@ -1,13 +1,24 @@
 ##Egret Android Support Based On Android Studio Release Notes 
 ---
 
+### Egret Android Support 5.0.1 Release Notes
+--
+Updated: June 29, 2017
+
+miniSDKVersion:14
+
+- **[Fix]** Fixed short audio may be played repeatedly.
+- **[Fix]** Fixed application goes into the background may lead to audio can not be played.
+- **[Fix]** Fixed call drawToTexture may be given an error.
+- **[Fix]** Fixed bugs.
+
 ### Egret Android Support 4.1.0 Release Notes
 --
 Updated: May 23, 2017
 
 miniSDKVersion:14
 
-- **[Fix]** fix lag and flashing caused by playing audio.
+- **[Fix]** Fixed lag and flashing caused by playing audio.
 - **[Fix]** Fixed setting background transparency is invalid
 - **[Fix]** Fixed part of the scene rendering error problem after open optimization.
 - **[Fix]** Fixed bugs.
